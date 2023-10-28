@@ -1,10 +1,11 @@
 import { Loader } from '@/components/common/loader';
+import { Radios } from '@/components/common/radio';
 
 const Player = () => {
   return (
     <div>
-      Player X
       <Loader />
+      <Radios />
     </div>
   );
 };
