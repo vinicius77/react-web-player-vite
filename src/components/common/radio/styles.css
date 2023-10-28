@@ -1,0 +1,69 @@
+.radios-list-container {
+  color: brown;
+}
+
+.radio-container {
+  margin: 0.5rem 0 0.5rem 0;
+  background-color: var(--white);
+  border-radius: 5px;
+  border: 1px solid var(--dark-orange);
+  padding: 0.5rem;
+  text-transform: capitalize;
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+}
+
+.radio-list span {
+  cursor: pointer;
+  text-align: left;
+  display: block;
+}
+
+.radio-list {
+  margin: 1rem;
+  min-width: 182px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue';
+}
+
+.radio-list-off span {
+  color: gray;
+  cursor: initial;
+}
+
+.radio-list-off {
+  cursor: initial;
+  filter: grayscale(100%);
+}
+
+.radio-flag {
+  width: 3.5rem;
+  margin-right: 1rem;
+}
+
+.radio-name {
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 0;
+  color: var(--dark-orange);
+}
+
+.radio-name span {
+  margin: 0;
+}
+
+.radio-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+}
+
+.radio-info span {
+  display: block;
+}
+
+.radio-info span:not(:first-child) {
+  margin-left: 0.5rem;
+}
