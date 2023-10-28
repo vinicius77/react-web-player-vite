@@ -1,3 +1,5 @@
 :root {
-  --light-orange: #f26600;
+  --dark-orange: #f26600;
+  --light-orange: orange;
+  --white: #ffffff;
 }
